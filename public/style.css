@@ -1,0 +1,126 @@
+*{
+  font-family: "Times New Roman", Times, serif;
+}
+
+hr {
+  color: #0d47a1;
+  background-color: #0d47a1;
+  border-color: #0d47a1;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+div + table, div > table {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0px 1.25rem;
+}
+
+ul li::before {
+  content: "\25E6";
+  color: #0d47a1;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em
+}
+
+.email {
+  font-size: 10px;
+}
+.email-icon{
+  margin-right: 5px
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.header{
+  position: relative;
+}
+
+.header-content{
+  display: inline-block;
+  background-image: url("./assets/Picture1.png");
+  color: white;
+  height: 85px;
+  width: 40%;
+}
+
+
+.header-content-info{
+  padding-left: 4rem;
+  padding-top: 2rem;
+}
+
+.header-brand{
+  position: absolute;
+  display: inline-block;
+  background-image: url("./assets/Picture2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: justify;
+  height: 85px;
+  width: 60%;
+}
+
+
+
+.tb-header {
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 9rem;
+}
+
+
+.tb-header-content {
+  position: absolute;
+  top:0;
+  right:0;
+}
+
+.tb-body {
+  padding: 0 1.25rem 1.25rem;
+  font-size: 12px;
+}
+
+.skill-on {
+  border-radius: 50%;
+  background-color: #0d47a1;
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+}
+
+.skill-off{
+  border-radius: 50%;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-color: #0d47a1;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.language, .language td {
+  border: 0.5px solid black;
+  border-spacing: 0px;
+}
+
+.language td {
+  text-align: center;
+}
+
+.language tr + tr td:first-child {
+  text-align: left;
+}
